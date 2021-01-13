@@ -479,3 +479,8 @@ $(function () {
         }
     }).trigger("resize");
 })(jQuery);
+
+// Error message
+setTimeout(function(){
+    $('#message').fadeOut('slow');
+}, 4000)
